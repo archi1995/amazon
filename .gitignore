@@ -1,0 +1,6 @@
+!.gitignore
+screenshots/*
+!screenshots/.gitkeep
+products.csv
+ghostdriver.log
+.idea/
