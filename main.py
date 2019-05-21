@@ -197,7 +197,8 @@ class Amazon:
                             price = partial_price_1 + partial_price_2
 
                     except:
-                        traceback.print_exc()
+                        # traceback.print_exc()
+                        pass
 
                     else:
                         data.append({
@@ -278,5 +279,5 @@ if __name__ == '__main__':
 
         except Exception as e:
             a.save_screenshot()
-            traceback.print_exc()
+            # traceback.print_exc()
             a.driver.quit()
